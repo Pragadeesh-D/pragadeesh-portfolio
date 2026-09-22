@@ -1,0 +1,70 @@
+// ============================================================
+// CERTIFICATIONS DATA
+// - credlyUrl: exact Credly badge URL — do not modify
+// - expiresLabel: human-readable expiration string
+// ============================================================
+
+export const certifications = [
+  {
+    id: "google-cloud-data-analytics",
+    name: "Google Cloud Data Analytics Certificate",
+    issuer: "Google Cloud",
+    issuerLogo: "google-cloud",
+    date: "April 28, 2025",
+    credlyUrl: "https://www.credly.com/earner/earned/badge/92088800-ba8c-4b40-81ce-da64de428a78",
+    verifyUrl: null,
+    expiresLabel: "Expires April 28, 2028",
+    tags: ["Data Analytics", "Cloud", "Google"],
+    highlight: true,
+  },
+  {
+    id: "google-cloud-engineering",
+    name: "Google Cloud Engineering Certificate",
+    issuer: "Google Cloud",
+    issuerLogo: "google-cloud",
+    date: "October 3, 2025",
+    credlyUrl: "https://www.credly.com/earner/earned/badge/026ddb44-c5ef-4715-9d9e-03c5c21b88e1",
+    verifyUrl: null,
+    expiresLabel: "Does not expire",
+    tags: ["Cloud Engineering", "Cloud", "Google"],
+    highlight: true,
+  },
+  {
+    id: "microsoft-ai-skills-fest",
+    name: "AI Skills Fest 2026",
+    issuer: "Microsoft",
+    issuerLogo: "microsoft",
+    date: "June 19, 2026",
+    credlyUrl: "https://www.credly.com/earner/earned/badge/184cacc7-0846-412a-abd2-004ab421a729",
+    verifyUrl: null,
+    expiresLabel: "Does not expire",
+    tags: ["AI", "Microsoft", "2026"],
+    highlight: true,
+  },
+  {
+    id: "codsoft-java",
+    name: "Java Programming Internship Certificate",
+    issuer: "CodSoft",
+    issuerLogo: "codsoft",
+    date: "July 2025",
+    credlyUrl: null,
+    verifyUrl: null,
+    expiresLabel: null,
+    tags: ["Java", "Internship"],
+    highlight: false,
+    note: "Internship completion certificate — not a professional industry certification.",
+  },
+  {
+    id: "python-css",
+    name: "Python Certificate",
+    issuer: "CSS (Coders School of Science)",
+    issuerLogo: null,
+    date: null,
+    credlyUrl: null,
+    verifyUrl: null,
+    expiresLabel: null,
+    tags: ["Python"],
+    highlight: false,
+    note: "Course completion certificate in Python programming.",
+  },
+];
